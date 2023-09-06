@@ -1,11 +1,7 @@
 #include<stdio.h>
-
 main()
-{
-	
-	printf("name   : paras saliya\n");
-	printf("age    : 16   \a      \n ");
-    printf("school : brilliant   \n");
-
-
+{	
+	printf("Name   : Paras Saliya\n");
+	printf("Age    : 16   \a      \n");
+        printf("School : Brilliant   \n");
 }
