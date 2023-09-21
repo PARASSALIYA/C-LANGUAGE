@@ -9,8 +9,8 @@ main()
 	while(n>=1)
 	{
 		if(n%2==1)
-			printf("%d\n",n);
-			n--;
+		printf("%d\n",n);
+		n--;
 	}
 	getch();
 }
