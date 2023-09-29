@@ -10,5 +10,6 @@ main()
 	{
 		n=n/10;
 	}
+	
 	printf("first and last sum :%d",first + last);
 }
