@@ -43,8 +43,7 @@ int main()
     }
     
   }  
-    for ( i = 0; i < len; i++)
-    {
+   
       if (len > 6)
       {
         puts("your password is strong ");
@@ -53,6 +52,4 @@ int main()
       {
         puts("your password is not strong");
       }
-    }
-  
 }
