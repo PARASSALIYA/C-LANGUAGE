@@ -52,4 +52,8 @@ int main()
       {
         puts("your password is not strong");
       }
+<<<<<<< HEAD
     }
+=======
+}
+>>>>>>> 9834f8355593ffcbad8dad68c27ca34642e4dd1b

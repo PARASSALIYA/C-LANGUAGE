@@ -10,7 +10,10 @@ int main()
     printf("Enter your password :");
     scanf("%s", &b1);
     int i;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 9834f8355593ffcbad8dad68c27ca34642e4dd1b
         if (a[i] == a1[i] && b[i] == b1[i])
         {
             printf("login successful.....\n");
