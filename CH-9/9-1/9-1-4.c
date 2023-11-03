@@ -6,10 +6,10 @@ int main()
 
     printf("ENter N :");
     scanf("%s", &n);
-
-    for (int i = 0; n[i] != '\0'; i++)
+   int i,upper=0,lower=0;
+    for ( i = 0; n[i] != '\0'; i++)
     {
-        if (n[i - 1] =='')
+        if (n[i - 1] ==0)
         {
             n[i]= upper(n[i]);
         }

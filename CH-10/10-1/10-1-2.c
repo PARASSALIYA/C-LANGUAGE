@@ -10,7 +10,6 @@ void div(int a)
     {
         printf("The given number is not divisible by both 3 & 5 ");
     }
-
 }
 
 main()

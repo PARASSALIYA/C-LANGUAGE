@@ -10,9 +10,8 @@ int main()
     printf("Enter your password :");
     scanf("%s", &b1);
     int i;
-    for (i = 0; a[i] !='\0'; i++)
-    {
-        if (a[i] == a1[i] || b[i] == b1[i])
+  
+        if (a[i] == a1[i] && b[i] == b1[i])
         {
             printf("login successful.....\n");
         }
@@ -20,5 +19,5 @@ int main()
         {
             printf("login failed.invalid credentials\n");
         }
-    }
 }
+
