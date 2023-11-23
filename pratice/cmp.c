@@ -2,7 +2,7 @@
 
 int main()
 {
-    char n[5];
+    char n[10];
     char n1[10];
 
     printf("Enter any string :");
@@ -11,6 +11,6 @@ int main()
     scanf("%s", &n1);
     int cmp = strcmp(n, n1);
     (cmp == 0)
-        ? printf(" compare : %s", n1)
-        : printf("not compare :%s", n1);
+        ? printf("compare successful.")
+        : printf("compare not successful.");
 }
