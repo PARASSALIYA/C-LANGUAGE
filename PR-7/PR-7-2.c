@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void decimalToBinary(int decimal) {
+int decimalToBinary(int decimal) {
     int binary = 0, remainder, base = 1;
 
     while (decimal > 0) {
