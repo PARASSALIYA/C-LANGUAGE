@@ -58,7 +58,7 @@ int main()
   }  
     for ( i = 0; i < len; i++)
     {
-      if (upr == 1 && lwr == 1 && digit == 0 && specialsymbol == 1)
+      if (upr == 1 && lwr == 1 && digit == 1 && specialsymbol == 1)
       {
         puts("your password is strong ");
       }

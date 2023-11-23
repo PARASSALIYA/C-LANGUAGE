@@ -11,6 +11,6 @@ int main()
     strrev(name);
     int cmp = strcmp(name, name1);
     (cmp == 0)
-        ? printf("palin")
-        : printf("not palin");
+        ? printf("Given string is a palindrome")
+        : printf("Given string is a not palindrome");
 }

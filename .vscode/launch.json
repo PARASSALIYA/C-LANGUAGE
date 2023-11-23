@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/TURBOC3/BIN/paras/CH-10/10-2",
-      "program": "c:/TURBOC3/BIN/paras/CH-10/10-2/build/Debug/outDebug",
+      "cwd": "c:/TURBOC3/BIN/paras/PR-7",
+      "program": "c:/TURBOC3/BIN/paras/PR-7/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
