@@ -20,3 +20,4 @@ int main()
         printf("%c : %d\n",n[i],a);
     }
 }
+
