@@ -55,4 +55,5 @@ int main()
     double avg = arrayavg(a, size);
 
     printf("\nArray avg :%.2lf", avg);
+    return 0;
 }
