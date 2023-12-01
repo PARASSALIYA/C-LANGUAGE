@@ -9,7 +9,7 @@ struct student
     int  maths;
     int  physics;
     int total;
-    float percent ;
+    int  percent ;
 
 };
 
@@ -47,6 +47,6 @@ int main()
         printf(" MATHS:%d\n", s[i].maths);
         printf(" PHYSICS:%d\n", s[i].physics);
         printf("TOTAL :%d/300 \n",s[i].chemistry+s[i].maths+s[i].physics,s[i].total);
-        printf("PERCENT :%.2f",s[i].total*100/300);
+        printf("PERCENT :%d",(s[i].total/300)*100);
     }
 }
